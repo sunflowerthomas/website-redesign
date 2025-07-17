@@ -7,7 +7,7 @@ jobs:
             - name: Fetch Tailwind CSS CLI
               run: npm install tailwindcss @tailwindcss/cli
             - name: Fetch code
-              uses: actions/checkout
+              uses: actions/checkout@v4
             - name: Build CSS
               run: npx @tailwindcss/cli -i ./input.css -o ./output.css --watch
             - name: Remove input css
