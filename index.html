@@ -4,12 +4,18 @@
         <title>sunflowerthomas's website</title>
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <script src="/main.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     </head>
     <body>
-        <div class="container mx-auto my-auto">
-            <h1 class="text-4x1">This website is a WIP</h1>
-            <p class="text-sm">WIP stands for Work In Progress, for the uniniated</p>
-            <input type="button" class="bg-black" onclick="goToOldWebsite()">Visit current website</input>
+        <div class="mx-auto my-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
+            <span class="material-symbols-outlined">
+                construction
+            </span>
+            <div>
+            <div class="text-xl font-medium text-black dark:text-white">W.I.P.</div>
+                <p class="text-gray-500 dark:text-gray-400">This website is a work in progress.</p>
+                <button type="button" onclick="goToOldWebsite()">Visit current website</button>
+            </div>
         </div>
     </body>
 </html>
