@@ -1,3 +1,3 @@
-function goToOldWebsite() {
-    window.location.href = "https://sunflowerthomas.github.io";
+function goToPage(page) {
+    window.location.href = page;
 }
